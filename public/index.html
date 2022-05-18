@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.isProd ? '':'dev-'%>电商后台管理系统</title>
+    <!-- 富文本样式表 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/quill/1.3.4/quill.core.min.css"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/quill/1.3.4/quill.snow.min.css"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/quill/1.3.4/quill.bubble.min.css"/>
+    <!-- <link rel="stylesheet" href="https://cdn.staticfile.org/element-ui/2.8.2/theme-chalk/index.css"> -->
+    <!-- <script src="https://cdn.bootcss.com/vue/2.5.15/vue.min.js"></script> -->
+    <!-- 引入样式element -->
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
+
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!--elemnet 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+  </body>
+</html>
